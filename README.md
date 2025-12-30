@@ -52,7 +52,6 @@ Sistema completo de gestão para empresa de engenharia e topografia, incluindo p
 
 ## 🏗️ Estrutura do Projeto
 
-'''
 w1nner-main/
 ├── app/                          # Páginas Next.js (App Router)
 │   ├── page.tsx                  # Landing page
@@ -94,7 +93,7 @@ w1nner-main/
 ├── storage.rules                 # Regras de segurança Storage
 └── public/                       # Arquivos estáticos
 
-'''
+
 
 ## 🔐 Segurança
 
