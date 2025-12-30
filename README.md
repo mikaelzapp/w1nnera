@@ -51,49 +51,48 @@ Sistema completo de gestão para empresa de engenharia e topografia, incluindo p
 - **Logs de Atividade**: Auditoria completa do sistema
 
 ## 🏗️ Estrutura do Projeto
-´´´
-w1nner-main/
-├── app/                          # Páginas Next.js (App Router)
-│   ├── page.tsx                  # Landing page
-│   ├── servicos/                 # Página de serviços
-│   ├── contato/                  # Formulário de contato
-│   ├── orcamento/                # Simulador de orçamento
-│   ├── blog/                     # Blog público
-│   ├── portal/                   # Portal do cliente
-│   │   ├── page.tsx              # Dashboard do cliente
-│   │   ├── processos/            # Processos do cliente
-│   │   ├── upload/               # Upload de documentos
-│   │   └── perfil/               # Perfil do usuário
-│   ├── admin/                    # Painel administrativo
-│   │   ├── page.tsx              # Dashboard admin
-│   │   ├── usuarios/             # Gestão de usuários
-│   │   ├── processos/            # Gestão de processos
-│   │   ├── cobranca/             # Gestão de planos
-│   │   └── blog/                 # Gestão do blog
-│   └── api/                      # API Routes
-│       └── assistant/            # Assistente IA
-├── components/                   # Componentes React
-│   ├── ui/                       # Componentes shadcn/ui
-│   ├── navigation.tsx            # Menu de navegação
-│   ├── footer.tsx                # Rodapé
-│   ├── admin-route.tsx           # Proteção de rotas admin
-│   └── protected-route.tsx       # Proteção de rotas autenticadas
-├── lib/                          # Bibliotecas e utilitários
-│   ├── firebase/                 # Configuração Firebase
-│   │   ├── config.ts             # Inicialização Firebase
-│   │   ├── auth-context.tsx      # Context de autenticação
-│   │   └── activity-logger.ts    # Logger de atividades
-│   ├── asaas/                    # Integração Asaas
-│   │   └── client.ts             # Cliente API Asaas
-│   ├── utils/                    # Utilitários
-│   │   ├── regularization.ts     # Cálculos de regularização
-│   │   └── pdf-generator.ts      # Geração de PDFs
-│   └── export-utils.ts           # Exportação de dados
-├── firestore.rules               # Regras de segurança Firestore
-├── storage.rules                 # Regras de segurança Storage
-└── public/                       # Arquivos estáticos
-´´´
 
+w1nner-main/
+├── app/                           Páginas Next.js (App Router)
+│   ├── page.tsx                   Landing page
+│   ├── servicos/                  Página de serviços
+│   ├── contato/                   Formulário de contato
+│   ├── orcamento/                 Simulador de orçamento
+│   ├── blog/                      Blog público
+│   ├── portal/                    Portal do cliente
+│   │   ├── page.tsx               Dashboard do cliente
+│   │   ├── processos/             Processos do cliente
+│   │   ├── upload/                Upload de documentos
+│   │   └── perfil/                Perfil do usuário
+│   ├── admin/                     Painel administrativo
+│   │   ├── page.tsx               Dashboard admin
+│   │   ├── usuarios/              Gestão de usuários
+│   │   ├── processos/             Gestão de processos
+│   │   ├── cobranca/              Gestão de planos
+│   │   └── blog/                  Gestão do blog
+│   └── api/                       API Routes
+│       └── assistant/             Assistente IA
+├── components/                    Componentes React
+│   ├── ui/                        Componentes shadcn/ui
+│   ├── navigation.tsx             Menu de navegação
+│   ├── footer.tsx                 Rodapé
+│   ├── admin-route.tsx            Proteção de rotas admin
+│   └── protected-route.tsx        Proteção de rotas autenticadas
+├── lib/                           Bibliotecas e utilitários
+│   ├── firebase/                  Configuração Firebase
+│   │   ├── config.ts              Inicialização Firebase
+│   │   ├── auth-context.tsx       Context de autenticação
+│   │   └── activity-logger.ts     Logger de atividades
+│   ├── asaas/                     Integração Asaas
+│   │   └── client.ts              Cliente API Asaas
+│   ├── utils/                     Utilitários
+│   │   ├── regularization.ts      Cálculos de regularização
+│   │   └── pdf-generator.ts       Geração de PDFs
+│   └── export-utils.ts            Exportação de dados
+├── firestore.rules                Regras de segurança Firestore
+├── storage.rules                  Regras de segurança Storage
+└── public/                        Arquivos estáticos
+´´´
 ## 🔐 Segurança
 
 ### Firestore Security Rules
