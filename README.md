@@ -51,7 +51,7 @@ Sistema completo de gestão para empresa de engenharia e topografia, incluindo p
 - **Logs de Atividade**: Auditoria completa do sistema
 
 ## 🏗️ Estrutura do Projeto
-
+´´´
 w1nner-main/
 ├── app/                          # Páginas Next.js (App Router)
 │   ├── page.tsx                  # Landing page
@@ -92,8 +92,7 @@ w1nner-main/
 ├── firestore.rules               # Regras de segurança Firestore
 ├── storage.rules                 # Regras de segurança Storage
 └── public/                       # Arquivos estáticos
-
-
+´´´
 
 ## 🔐 Segurança
 
